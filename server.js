@@ -21,7 +21,7 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (req, res) => {
 
-    //let url = "mongodb://3.143.224.212:27017/";
+    //let url = "mongodb://3.142.150.255:27017/";
    
 
     var MongoClient = require('mongodb').MongoClient;
